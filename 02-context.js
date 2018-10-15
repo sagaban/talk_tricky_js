@@ -1,4 +1,4 @@
-fullname = 'Peter Parker';
+var fullname = 'Peter Parker';
 var obj = {
     fullname: 'Vincent Vega',
     prop: {
@@ -9,35 +9,26 @@ var obj = {
     }
 };
 
-console.log(obj.prop.getFullname());
-
 var test = obj.prop.getFullname;
 
+// 01
+console.log(obj.prop.getFullname());
 console.log(test());
 
-console.log("-----");
 
-console.log(test.call(global));
-console.log(test.apply(global));
+//02
 
-console.log(test.call(obj));
-console.log(test.call(obj.prop));
+// console.log(test.call(global));
+// console.log(test.apply(global));
 
-console.log("-----");
+// console.log(test.call(obj));
+// console.log(test.apply(obj.prop));
 
-var boundFunction1 = test.bind(obj);
-var boundFunction2 = test.bind(obj.prop);
 
-console.log(boundFunction1());
-console.log(boundFunction2());
-/*
-Brian Griffin
-Peter Parker
------
-Peter Parker
-Vincent Vega
-Brian Griffin
------
-Vincent Vega
-Brian Griffin
-*/
+//03
+
+// var boundFunction1 = test.bind(obj);
+// var boundFunction2 = test.bind(obj.prop);
+
+// console.log(boundFunction1());
+// console.log(boundFunction2());

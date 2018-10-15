@@ -1,5 +1,6 @@
 var nombre = "Hugo"
 var otro = "Paco"
+
 function inicia() {
   var nombre = "Luis";
   function muestraNombre() {

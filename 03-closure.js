@@ -1,4 +1,4 @@
-var apellido = "Gregory"
+var apellido = "Gregory";
 function creaFunc() {
   var nombre = "Benji";
   function muestraNombre() {
