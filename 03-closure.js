@@ -9,5 +9,6 @@ function creaFunc() {
 
 var miFunc = creaFunc();
 miFunc(); 
+
 // apellido = "Button";
 // miFunc(); 

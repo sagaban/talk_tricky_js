@@ -1,5 +1,5 @@
-var nombre = "Hugo"
-var otro = "Paco"
+var nombre = "Hugo";
+var otro = "Paco";
 
 function inicia() {
   var nombre = "Luis";

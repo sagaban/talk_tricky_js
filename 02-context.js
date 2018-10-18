@@ -1,4 +1,4 @@
-var fullname = 'Peter Parker';
+global.fullname = 'Peter Parker';
 var obj = {
     fullname: 'Vincent Vega',
     prop: {
@@ -18,8 +18,8 @@ console.log(test());
 
 //02
 
-// console.log(test.call(global));
-// console.log(test.apply(global));
+// console.log(test.call(global));  // One by one
+// console.log(test.apply(global)); // Array
 
 // console.log(test.call(obj));
 // console.log(test.apply(obj.prop));
